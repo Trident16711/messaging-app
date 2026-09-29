@@ -1,7 +1,6 @@
 import { createClient } from '@/lib/supabase/server'
 import Chat from '@/components/chat'
 import Auth from '@/components/auth'
-import './globals.css'
 
 export const metadata = { title: 'Loop — Messaging', description: 'A simple real-time messaging app' }
 
